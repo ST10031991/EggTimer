@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Egg Timer</string>
+
+<!--    <style name="CustomButton" parent="Widget.MaterialComponents.Button">-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:backgroundTint">#FFA500</item>-->
+<!--        <item name="android:textColor">#FFFFFF</item>-->
+<!--        <item name="android:layout_marginTop">10dp</item>-->
+<!--    </style>-->
+
+    <style name="SoftBoiledButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#FFD700</item> <!-- Egg yolk color -->
+        <item name="android:textColor">#3E3E3E</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="MediumBoiledButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#FF8C00</item> <!-- Orange -->
+        <item name="android:textColor">#3E3E3E</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="HardBoiledButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#3E3E3E</item> <!-- Dark Gray -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+
+</resources>

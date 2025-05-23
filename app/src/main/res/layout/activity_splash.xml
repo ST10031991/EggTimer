@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/eggs1">
+
+    <!-- Egg Logo -->
+    <ImageView
+        android:id="@+id/splashEgg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/egg_icon"/>
+
+    <!-- App Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Perfect Egg Timer"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+</LinearLayout>
